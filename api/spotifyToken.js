@@ -30,9 +30,8 @@ import {decode as atob, encode as btoa} from 'base-64'
 const apiPrefix = 'https://accounts.spotify.com/api';
 
 // DO NOT FORGET TO INPUT YOUR CLIENTID AND CLIENT SECRET HERE
-const clientId = 'cb57b2f30df84eacb032ec9a4387369e';
-
-const clientSecret = '12a366430d8a4537bdbe6f9ecb4c59c5';
+const clientId = '3dd1ad76687b4c359fa4b5314b84c5a3';
+const clientSecret = 'f2036e521df74e008a706b0b211a4f2a';
 
 
 // step (4) here
