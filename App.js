@@ -15,8 +15,7 @@
 
 import React, {Component} from 'react';
 
-// step (81) here
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, ActivityIndicator} from 'react-native';
 
 import Search from './components/Search';
 
@@ -129,7 +128,7 @@ export default class App extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#F2F2F2',
         alignItems: 'stretch',
         justifyContent: 'flex-start',
         margin: 10,

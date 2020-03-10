@@ -78,6 +78,6 @@ const styles = StyleSheet.create({
         marginTop: 10,
     },
     container: {
-        backgroundColor: 'yellow',
+        backgroundColor: '#66ADD9',
     },
 });
