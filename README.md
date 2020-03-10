@@ -24,13 +24,13 @@ _If permissions errors then please use `--unsafe-perm=true` flag too [npm/npm#16
 2. Clone the project
 
 ```
-git clone https://github.com/react-native-elements/react-native-elements-app.git
+git clone https://github.com/ianasqazi/spotify.git
 ```
 
 3. Install dependencies
 
 ```
-cd react-native-elements-app
+cd spotify
 
 # Using npm or yarn
 yarn || npm install

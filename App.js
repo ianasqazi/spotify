@@ -113,7 +113,7 @@ export default class App extends Component {
         // step (82) here
             return (
                 <View style={styles.container}>
-                    <Text>iSpotifyPlayer</Text>
+                    <Text style={styles.text}>iSpotifyPlayer</Text>
                     <Search onChange={text => this.handleSearchChange(text)} />
                     {
                         (isFetching && items.length === 0)?null:
@@ -135,6 +135,9 @@ const styles = StyleSheet.create({
         marginTop: 50,
     },
     text: {
-        textAlign: "center",
+        fontSize:50,
+        backgroundColor:"#BFA18F",
+        textAlign:"center",
+        fontFamily: "Verdana"
     }
 });

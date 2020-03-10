@@ -45,7 +45,7 @@ export default class Search extends Component {
 
         return (
             <View style={styles.container}>
-                <Text style={styles.text}>Artist Search:</Text>
+                <Text style={styles.text}>Search:</Text>
                 <TextInput
                     style={styles.input}
                     value={text}
@@ -67,15 +67,17 @@ const styles = StyleSheet.create({
     text: {
         marginTop: 10,
         marginBottom: 10,
+        fontSize:20,
     },
     input: {
         borderWidth: 1,
-        borderColor: 'grey',
+        borderColor: '#C0C0C0',
         borderRadius: 20,
         height: 40,
         padding: 10,
         marginBottom: 10,
         marginTop: 10,
+        fontSize:15
     },
     container: {
         backgroundColor: '#66ADD9',
