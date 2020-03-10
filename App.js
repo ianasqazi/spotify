@@ -113,7 +113,7 @@ export default class App extends Component {
         // step (82) here
             return (
                 <View style={styles.container}>
-                    <Text>React Native Creative - Spotify Player</Text>
+                    <Text>iSpotifyPlayer</Text>
                     <Search onChange={text => this.handleSearchChange(text)} />
                     {
                         (isFetching && items.length === 0)?null:
@@ -134,4 +134,7 @@ const styles = StyleSheet.create({
         margin: 10,
         marginTop: 50,
     },
+    text: {
+        textAlign: "center",
+    }
 });
