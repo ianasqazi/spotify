@@ -1,6 +1,6 @@
 # iSpotifyPlayer
 
-![React Spotify App](assets/screenshots/iphone.png =100x100)
+![React Spotify App](assets/screenshots/iphone.png) {:height="700px" width="400px"}
 
 Click here to checkout the **[Mobile App](https://expo.io/@ianasqazi/spotify)** 
 
