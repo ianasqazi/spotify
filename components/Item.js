@@ -25,13 +25,6 @@ import React, { Component } from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
 
-// step (1) here
-// export default ( // step (2) here ) => (
-//
-// steps (4) and (5) here.
-// );
-
-
 export default ({ item: {imageUri, title,} }) => (
     <View style={styles.container}>
         <Image
@@ -42,9 +35,6 @@ export default ({ item: {imageUri, title,} }) => (
     </View>
 );
 
-
-// step (3) here
-// const styles = ...
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',

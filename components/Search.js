@@ -1,31 +1,14 @@
-// INSTRUCTIONS
-/*
-* 1. Set the text: style to have a marginTop and marginBottom of 10.
-* 2. Add a placeholder attribute with a value of "search for" for the TextInput component tag.
-* 3. Note text in the onChangeText handler was replaced with newText to make it easier to follow the values.
-* 4. Return to App.js,  step 57
-* 5. Assuming you did step 4 above, add onChange && onChange(newText); so that it doesn't call every single time.
-* 6. Proceed to work on the file StatelessListComponent.js
-*
-*
-* */
-
-
-
 import React, {Component} from 'react';
-
 import {View, Text, TextInput, StyleSheet} from 'react-native';
 
 export default class Search extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             text: '',
         };
     }
-
 
     handleChangeText(newText){
         const {onChange} = this.props;
@@ -38,48 +21,42 @@ export default class Search extends Component {
         });
     }
 
-
     render() {
 
         const {text} = this.state;
 
         return (
             <View style={styles.container}>
-                <Text style={styles.text}>Search:</Text>
                 <TextInput
                     style={styles.input}
                     value={text}
-                    placeholder="Search for..."
+                    placeholder="Search Artist ..."
                     onChangeText={newText => this.handleChangeText(newText)}
                 />
             </View>
         );
-
-
     }
-
 }
 
-
-// step (1) here
 
 const styles = StyleSheet.create({
     text: {
         marginTop: 10,
         marginBottom: 10,
         fontSize:20,
+        textAlign: "center"
     },
     input: {
         borderWidth: 1,
         borderColor: '#C0C0C0',
         borderRadius: 20,
-        height: 40,
+        height: 50,
         padding: 10,
-        marginBottom: 10,
-        marginTop: 10,
+        marginVertical:10,
+        marginHorizontal:30,
         fontSize:15
     },
     container: {
-        backgroundColor: '#66ADD9',
+        backgroundColor: '#F2EDDF',
     },
 });

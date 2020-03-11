@@ -7,7 +7,7 @@ export default () => (
     <View
         style={{
             height: 1,
-            backgroundColor: 'grey',
+            backgroundColor: '#BFA18F',
             marginTop: 10,
             marginBottom: 10,
         }}

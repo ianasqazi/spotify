@@ -4,7 +4,7 @@
 const timeout = ms => new Promise(res => setTimeout(res, ms));
 
 // a sample image
-const sampleImage = "https://www.edapostol.com/img/lz4.jpg";
+const sampleImage = "https://picsum.photos/200";
 
 export default async ({ offset, limit, q, }) => {
 

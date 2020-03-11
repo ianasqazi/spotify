@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Spotify Test App",
     "slug": "spotify",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -15,7 +15,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#F2F2F2"
+      "backgroundColor": "#F2EDDF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

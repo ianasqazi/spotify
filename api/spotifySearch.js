@@ -1,12 +1,9 @@
-// INSTRUCTIONS
-
-/* */
 
 const apiPrefix = 'https://api.spotify.com/v1';
 
 export default async ({offset, limit, q, token,}) => {
     const searchUrl = `${apiPrefix}/search?type=track&limit=${limit}&offset=${offset}&q=${encodeURIComponent(q)}`;
-    console.log('starting search, searchURL is ' + searchUrl);
+    // console.log('starting search, searchURL is ' + searchUrl);
     const params = {
         method: 'GET',
         headers: {
@@ -15,7 +12,7 @@ export default async ({offset, limit, q, token,}) => {
     };
     const res = await fetch(searchUrl, params);
     const jsonObj = await res.json();
-    console.log ('the json results returned is \n' + jsonObj );
+    // console.log ('the json results returned is \n' + jsonObj );
 
     if (!res.ok){
         return [];

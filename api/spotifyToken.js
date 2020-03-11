@@ -1,28 +1,3 @@
-// INSTRUCTIONS
-
-/*
-*  spotifyToken.js implements a token based upon credentials you create.
-*  reference: https://developer.spotify.com/documentation/general/guides/authorization-guide/
-*
-*
-*  You are going to create a Header that contains base 64 encoded string, it contains the client ID and client secret key.
-*
-* You get a client ID and client secret key when you create a spotify account.
-*
-* The field in the header must have the format: Authorization: Basic *<base64 encoded client_id:client_secret>*
-*
-*  "WHen the auth code has been received, you will exchange it with an access token by making a post request to the Spotify accounts service - https://accounts.spotify.com/api/token "
-*
-*
-* */
-
-// BEFORE YOU BEGIN
-
-// check and install the base-64 module from npm: npm i -S base-64 or yarn add base-64
-// add the following IMPORT statement - import {decode as atob, encode as btoa} from 'base-64'
-
-/*
-* */
 
 import {decode as atob, encode as btoa} from 'base-64'
 

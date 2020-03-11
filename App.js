@@ -1,40 +1,16 @@
-// INSTRUCTIONS:
-
-// Keep the mobile simulator running if your machine allows it so that you can immediately see changes
-
-/*
-* 81. import ActivityIndicator from react-native
-*
-* import {StyleSheet, Text, View, ActivityIndicator} from 'react-native';
-*
-* 82. Change the value null value in the unary if...else statement that shows the StatelessListComponent with an instance of <ActivityIndicator />
-*
-* 83. Test The Search Functionality (should be active). Enter in Values in the field and see if the results begin to change.
-*
-* */
-
 import React, {Component} from 'react';
-
 import {StyleSheet, Text, View, ActivityIndicator} from 'react-native';
-
 import Search from './components/Search';
-
-
-// import mockSearch from "./api/mockSearch";
-
 import spotifyToken from "./api/spotifyToken";
-
 import spotifySearch from "./api/spotifySearch";
-
 import StatelessListComponent from "./components/StatelessListComponent";
-
 const PAGE = 20;
 
 export default class App extends Component {
 
     constructor(props) {
         super(props);
-        // step (74) update this.state() in the constructor
+        
         this.state = {
             items: [],
             offset: 0,
@@ -47,8 +23,6 @@ export default class App extends Component {
 
 
     async componentDidMount() {
-        // step (75) remove the mockSearch here.
-        // step (76) call again refreshToken(). uncomment.
         await this.refreshToken();
         await this.loadNextPage();
     }
@@ -69,14 +43,13 @@ export default class App extends Component {
 
         this.setState({ isFetching: true });
 
-        // step (77) here
         const newItems = await spotifySearch({
             offset: this.state.offset,
             limit: PAGE,
             q: this.state.query,
             token: this.state.token,
         });
-        console.log('the items returned are \n' , newItems);
+        // console.log('the items returned are \n' , newItems);
         console.log('Search completed.');
 
         this.setState({
@@ -110,7 +83,6 @@ export default class App extends Component {
 
         const { items, isFetching } = this.state;
 
-        // step (82) here
             return (
                 <View style={styles.container}>
                     <Text style={styles.text}>iSpotifyPlayer</Text>
@@ -128,16 +100,26 @@ export default class App extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F2F2F2',
+        backgroundColor: '#F2EDDF',
+        // light brown yellow 
         alignItems: 'stretch',
         justifyContent: 'flex-start',
         margin: 10,
         marginTop: 50,
     },
     text: {
+        padding:20,
         fontSize:50,
-        backgroundColor:"#BFA18F",
+        backgroundColor:"#BFA18F", 
+        // brown
         textAlign:"center",
-        fontFamily: "Verdana"
+        fontFamily: "Verdana",
+        borderTopLeftRadius:10,
+        borderBottomLeftRadius:10,
+        borderTopStartRadius:10,
+        borderBottomStartRadius:10,
+        borderWidth:3,
+        borderRadius: 10,
+
     }
 });
