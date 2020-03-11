@@ -3,11 +3,10 @@
 ![React Spotify App]()
 
 **[Mobile App](https://expo.io/@ianasqazi/spotify)** | 
-**[Web App](https://react-native-elements.github.io/react-native-elements-app)**
 
-This is the Demo app for [React Spotify](https://github.com/react-native-elements/react-native-elements) built with [Expo](https://expo.io/). In this app you will find examples on on how to use various RNE components as well as production-ready screens.
+This is a Demo app which uses React-Native Framework and API calls to to spotify to search Music based on Artist built with [Expo](https://expo.io/). 
 
-This app also work on the `web` platform using [React Native Web](https://github.com/necolas/react-native-web). You can checkout the [live website here](https://react-native-elements.github.io/react-native-elements-app). If you are looking to build a React Native mobile app & also reuse the code to deploy on web, this repo can be used as a great starting point.
+You can checkout the [source code here](https://github.com/ianasqazi/spotify). If you are looking to build a React Native mobile app & also reuse the code to deploy on web, this repo can be used as a great starting point.
 
 ## Getting Started
 
