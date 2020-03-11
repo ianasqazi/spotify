@@ -1,8 +1,8 @@
 # iSpotifyPlayer
 
-![React Spotify App](assets/screenshots/iphone.png)
+![React Spotify App](assets/screenshots/iphone.png | width=100x100)
 
-**[Mobile App](https://expo.io/@ianasqazi/spotify)** | 
+Click here to checkout the **[Mobile App](https://expo.io/@ianasqazi/spotify)** 
 
 This is a Demo app which uses React-Native Framework and API calls to to spotify to search Music based on Artist built with [Expo](https://expo.io/). 
 
