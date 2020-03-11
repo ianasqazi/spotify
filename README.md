@@ -1,6 +1,6 @@
 # iSpotifyPlayer
 
-![React Spotify App]()
+![React Spotify App](assets/screenshots/iphone.png)
 
 **[Mobile App](https://expo.io/@ianasqazi/spotify)** | 
 
@@ -68,14 +68,6 @@ yarn eject || npm run eject
 ```
 
 We highly recommend you read the [official Expo ejection docs](https://docs.expo.io/versions/latest/expokit/eject/) before proceeding.
-
-## Major contributors:
-
-- [@oxyii](https://github.com/oxyii) 💪🏼
-- [@xavier-villelegier](https://github.com/xavier-villelegier) 🔥
-- [@martinezguillaume](https://github.com/martinezguillaume) 🎸
-- [@iRoachie](https://github.com/iRoachie) 💯
-- [@monte9](https://github.com/monte9) 🤓
 
 ## React Native Elements
 
