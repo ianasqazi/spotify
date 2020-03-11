@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Spotify Test App",
+    "name": "Spotify App in React-Native",
     "slug": "spotify",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Search your favorite songs by Artist.\nTest App created under UofT. ",
+    "githubUrl": "https://github.com/ianasqazi/spotify"
   }
 }

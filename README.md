@@ -2,7 +2,7 @@
 
 ![React Spotify App]()
 
-**[Mobile App](https://expo.io/@monte9/react-native-elements-app)** | 
+**[Mobile App](https://expo.io/@ianasqazi/spotify)** | 
 **[Web App](https://react-native-elements.github.io/react-native-elements-app)**
 
 This is the Demo app for [React Spotify](https://github.com/react-native-elements/react-native-elements) built with [Expo](https://expo.io/). In this app you will find examples on on how to use various RNE components as well as production-ready screens.
